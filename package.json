@@ -1,0 +1,40 @@
+{
+  "name": "happy-price",
+  "version": "1.0.0",
+  "description": "this website happy price",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "webpack": "webpack -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tran Thanh Son",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-sparklines": "^1.7.0",
+    "youtube-api-search": "0.0.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.13.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-react": "^7.5.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "redux": "^3.7.2",
+    "redux-promise": "^0.5.3",
+    "style-loader": "^0.19.1",
+    "underscore": "^1.8.3",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
